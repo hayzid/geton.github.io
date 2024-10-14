@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(2, 2, 73);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(253, 3, 99);
+}
+
+.logo{
+    height: auto;
+    width: 10%; 
+    position: relative;
+    left: 0.1%;
+    bottom: 2%;
+    padding-right: 3%;
+    
+    
+}
+.box{
+    height: auto;
+
+}
+
+img{
+    height: 197px;
+    width: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 10px;
+    
+}
+.two{
+    margin: 1.66%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: georgia;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(253, 3, 99);
+    width: 30%;
+    padding-bottom: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(253, 3, 99);
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+h2{
+    margin: 1.66%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: georgia;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(253, 3, 99);
+    width: 30%;
+    padding-bottom: 20px;
+}
+.pag1{
+    padding: 10px ;
+
+}
+hr{
+    height: 2px;
+    background-color: rgb(253, 3, 99);
+    width: 95%;
+    margin: auto;
+    
+   
+    
+}
+h4{
+   color: rgb(253, 3, 99); 
+   padding-top: 30px;
+   text-align: center;
+   font-size: 20px;
+}
+.p2{
+    color: rgb(253, 3, 99);
+}
+.feet{
+    position: relative;
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+    border: 5px solid rgba(253, 3, 99, 0.277);
+    margin-top: 550px;
+    background-color: rgba(231, 105, 204, 0.277);
+    padding-top: 10px;
+
+   
+
+    
+    
+}
+h3{
+    
+    color: rgb(253, 3, 99);
+}
+.women{
+    padding-left:3%;
+    display: flex;
+    width: 90%;
+    height: 500px;
+    border-radius: 10%;
+}
+.contact{
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    border-radius: 20px;
+    border: 5px solid rgba(231, 105, 204, 0.277);
+    /* background-color: rgb(253, 3, 99); */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto ;
+    padding: 30px; 
+    justify-items: center; 
+    color: rgb(253, 3, 99);
+    
+    
+    
+}
+
+.bot{
+    margin: 30px;
+    background-color: rgba(231, 105, 204, 0.277);
+    border-radius: 10px;
+    border: 3px solid rgb(253, 3, 99);
+}
+.bot:hover{
+    background-color: rgba(250, 93, 153, 0.897);
+}
+
+.btn{
+    margin: 10px;
+}
+.socia ul{
+    display: flex;
+    list-style: none;
+    /* padding-left: 40%;
+    padding-top: 20px; */
+    /* height: 197px; */
+   
+    float: right;
+    margin: 1.6%;
+    
+
+   
+    
+}
+.socia img{
+    width: 50px;
+    height: 70px;
+    border-radius: 50%;
+    
+    
+
+    
+    
+}
+@media screen (max-width: 906){
+    nav{
+        width:50%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .logo{
+        height: auto;
+        width: auto; 
+        position: relative;
+        left: 8px;
+        bottom: 20px;
+    }
+    .women{
+        padding: auto;
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+   
+}
